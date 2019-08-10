@@ -1,16 +1,16 @@
-package java.com.infoshareacademy.codereview;
+package java.com.infoshareacademy.codereview.rafalzakrzewski;
 
 public class Client {
-    private String imie;
+    private String name;
     private String surname;
     private Long age;
 
     public String getName() {
-        return imie;
+        return name;
     }
 
     public void setName(String name) {
-        this.imie = name;
+        this.name = name;
     }
 
     public String getSurname() {
