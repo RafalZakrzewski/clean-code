@@ -1,7 +1,7 @@
 package java.com.infoshareacademy.codereview;
 
 public class Client {
-/*    private String name;
+    private String name;
     private String surname;
     private Long age;
 
@@ -27,5 +27,5 @@ public class Client {
 
     public void setAge(Long age) {
         this.age = age;
-    }*/
+    }
 }
