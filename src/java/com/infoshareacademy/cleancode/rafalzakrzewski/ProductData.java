@@ -3,12 +3,14 @@ package java.com.infoshareacademy.cleancode.rafalzakrzewski;
 import java.math.BigDecimal;
 
 public class ProductData {
+    private BigDecimal price;
+    private BigDecimal vat;
+    private String name;
+    private int id;
 
-public String getName() {
+    public String getName() {
         return name;
     }
-    private BigDecimal price;
-            private BigDecimal vat;
 
     public void setName(String name) {
         this.name = name;
@@ -19,11 +21,8 @@ public String getName() {
     }
 
     public void setId(int id) {
-this.id = id;
+        this.id = id;
     }
-
-    private String name;
-        private int id;
 
     public BigDecimal getPrice() {
         return price;
