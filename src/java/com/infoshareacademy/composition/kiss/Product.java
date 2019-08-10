@@ -1,4 +1,4 @@
-package java.com.infoshareacademy.kiss;
+package java.com.infoshareacademy.composition.kiss;
 
 public class Product {
     private String name;

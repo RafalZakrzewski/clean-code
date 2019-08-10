@@ -1,4 +1,4 @@
-package java.com.infoshareacademy.dry;
+package java.com.infoshareacademy.composition.yagni;
 
 import java.com.infoshareacademy.codereview.Client;
 import java.math.BigDecimal;
@@ -27,8 +27,7 @@ public class ShoppingCart {
         client.setName(name);
     }
 
-    public BigDecimal getTotalPrice(boolean showVat) {
-        BigDecimal totalPrice = BigDecimal.valueOf(Double.valueOf(new java.text.DecimalFormat("#.##").format(product.getPrice().add(product.getVat()))));
-        return totalPrice;
+    public BigDecimal getTotalPrice() { // funkcja potzreba w przyszłości
+        return product.getPrice().add(product.getVat());
     }
 }

@@ -1,4 +1,4 @@
-package java.com.infoshareacademy.yagni;
+package java.com.infoshareacademy.composition.yagni;
 
 import java.math.BigDecimal;
 

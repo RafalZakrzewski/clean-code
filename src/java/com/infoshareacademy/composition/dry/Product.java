@@ -1,4 +1,4 @@
-package java.com.infoshareacademy.dry;
+package java.com.infoshareacademy.composition.dry;
 
 public class Product {
     private String name;

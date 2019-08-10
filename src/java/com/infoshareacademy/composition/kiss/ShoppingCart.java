@@ -1,4 +1,4 @@
-package java.com.infoshareacademy.kiss;
+package java.com.infoshareacademy.composition.kiss;
 
 import java.com.infoshareacademy.codereview.Client;
 import java.math.BigDecimal;
